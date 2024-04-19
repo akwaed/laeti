@@ -42,5 +42,6 @@ public class TwoTowers {
         double[] towerHeights = buildTowers(squares);
         System.out.println("Tower 1 Height: " + towerHeights[0]);
         System.out.println("Tower 2 Height: " + towerHeights[1]);
+        System.out.println("Diffrence " + Math.abs(towerHeights[0] - towerHeights[1]));
     }
 }
